@@ -10,11 +10,11 @@ public class SaddleSizeReporter {
     }
 
     public void report() {
-        System.out.println("In the year " +
+        System.out.println("En l'an " +
                 targetYear +
-                ", dragons born in the year 1 AD will have a saddle size of " +
-                beltSize / 100 + " meters" +
-                "(" + beltSize + " centimeters)"
+                ", les dragons nes en l'an 1 auront une taille de selle de " +
+                beltSize / 100 + " metres" +
+                "(" + beltSize + " centimetres)"
         );
     }
 }
