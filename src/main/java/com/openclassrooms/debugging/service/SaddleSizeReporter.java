@@ -13,14 +13,14 @@ public class SaddleSizeReporter {
      */
     public String report(int targetYear, double beltSize) {
         double sizeInMeters = beltSize / 100;
-        StringBuilder response = new StringBuilder("In the year ");
+        StringBuilder response = new StringBuilder("En l'an ");
         response.append(targetYear);
-        response.append(", dragons born in the year 1 AD will have a saddle size of ");
+        response.append(", les dragons nés en l'an 1 auront une taille de selle de ");
         response.append(sizeInMeters);
-        response.append(" meters");
+        response.append(" metres");
         response.append("(");
         response.append(beltSize);
-        response.append(" centimeters)");
+        response.append(" centimetres)");
 
         return response.toString();
     }

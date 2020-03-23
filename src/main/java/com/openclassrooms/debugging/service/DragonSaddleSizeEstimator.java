@@ -29,28 +29,28 @@ public class DragonSaddleSizeEstimator {
      * @return Saddle size
      */
     public Double estimateSaddleSizeInCentiMeters(int targetYear) throws Exception {
-        logger.debug("Estimating saddle size for {}", targetYear);
+        logger.debug("Estimation d'une taille de selle pour {}", targetYear);
         double saddleSizeInCm = calculateSaddleSizeFromYear(targetYear);
 
         // Verify that we have a valid saddle size
         verifier.verify(saddleSizeInCm);
-        logger.info("Calculated a valid cm saddle size: {}", saddleSizeInCm);
+        logger.info("Taille de selle en cm calculée: {}", saddleSizeInCm);
 
         return saddleSizeInCm;
     }
 
     private double calculateSaddleSizeFromYear(int targetYear) {
-        logger.trace("About to calculate saddle size using MYSTICAL CONSTANT: {} and Target Year: {}", MYSTICAL_CONSTANT, targetYear);
+        logger.trace("A propos du calcul d'une taille de selle avec la constante mystique: {} et l'année cible: {}", MYSTICAL_CONSTANT, targetYear);
         // Count down the number of years it's been alive
         double saddleSizeInCm = targetYear-MYSTICAL_CONSTANT;
 
         // This is from an era before dragon's were spawned
         if (saddleSizeInCm<0) {
-            logger.warn("Detected a saddle size less than 0");
+            logger.warn("Taille de selle inférieure à 0 détectée");
             return NON_EXISTANT_DRAGON_SIZE;
         }
 
-        logger.trace("Calculated saddleSize {}cm using mystical constant[{}] and targetYear[{}]", saddleSizeInCm, MYSTICAL_CONSTANT, targetYear);
+        logger.trace("Taille de selle calculée {}cm avec la constante mystique[{}] et l'année cible[{}]", saddleSizeInCm, MYSTICAL_CONSTANT, targetYear);
         // calculate the final saddle size
         return saddleSizeInCm;
     }

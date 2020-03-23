@@ -22,7 +22,7 @@ class SaddleSizeReporterTest {
 
         // Assert
         assertThat( response,
-                startsWith("In the year 2019, dragons born in the year 1 AD " +
-                        "will have a saddle size of 20.18 meters(2018.0 centimeters"));
+                startsWith("En l'an 2019, les dragons nés en l'an 1 " +
+                        "auront une taille de selle de 20.18 metres(2018.0 centimetres)"));
     }
 }
