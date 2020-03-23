@@ -25,7 +25,7 @@ public class DragonSaddleSizeGuesser {
             targetYear = Integer.parseInt(args[0]);
         }
 
-        informUser("Calculating saddle size for a dragon in the year " + targetYear);
+        System.out.println("En cours de calcul de taille de selle pour un dragon en l'an " + targetYear);
 
         // Calculate Saddle Size
         double saddleSize = estimator.estimateSaddleSizeInCentiMeters(targetYear);
