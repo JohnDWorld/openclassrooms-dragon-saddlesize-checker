@@ -26,7 +26,7 @@ public class DragonSaddleSizeGuesser {
             estimator.setYearOfBirth(1); // All dragon's were spawned in 1 AD
         }
 
-        System.out.println("Calculating saddle size for a dragon in the year " + targetYear);
+        System.out.println("En cours de calcul de taille de selle pour un dragon en l'an " + targetYear);
 
         // Estimate the saddle size of a dragon,
         // relative to the year "One" when all extent dragons were born.
