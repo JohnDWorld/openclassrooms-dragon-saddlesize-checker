@@ -1,45 +1,36 @@
-# Dragon Saddle Size Checker
+# Calculateur de taille de dragon
 
-# This Branch
+# Cette branche
 
-This branch contains a version of the application which has been converted into a SpringBoot service.
+Cette branche contient une version de l'application qui a été transformé en Spring Boot service.
 
+# Le bug qui a vaincu un dragon
+Comme chacun sait, les dragons sont des créatures mythiques qui n'existent pas dans la nature. Pas naturellement, en fait. 
 
+Ce que vous ne savez peut-être pas, c'est qu'en l'an 1 de notre ère, le sage alchimiste Lou Tan Dey-ta a réussi à créer plusieurs dragons en utilisant des moyens non naturels et un certain nombre de potions pétillantes.
+Ces dragons volent encore dans le ciel aujourd'hui.
 
-# The bug that defeated a dragon
-As everyone knows Dragons are mythical creatures which do not exist
-in nature. Not naturally, that is. 
+Les dragons vivent extrêmement longtemps et grandissent à un rythme constant, mais lent. 
+Acheter la bonne selle de dragon est une affaire délicate.
 
-It is a little known fact that in the year 1 AD, the wise
-alchemist Lou Tan Dey-ta created a small batch
-of dragons using unnatural means and a number of fizzy potions.
-Those dragons still fly the skies today.
+Afin d'aider ceux qui ont la chance de monter un jour sur ces dragons,
+Lou Tan a publié un algorithme de calcul de la taille d'une selle basé
+sur l'âge d'un dragon. 
 
-Dragons are extremely long lived and grow at a constant, but slow rate. 
-Buying the right dragon saddle is a tricky business.
+Des siècles plus tard, cet algorithme a été réécrit à la hâte en Java afin d'aider ceux qui ont la chance d'avoir besoin de selles de dragon. 
 
-In order to help those lucky enough to one day ride on these dragons
-Lou Tan published an algorithm for calculating the size of a saddle based
-on the age of a Dragon. 
+Malheureusement, le code laisse beaucoup à désirer : il y a maintenant un bug.
 
-Centuries later this algorithm was hurriedly re-written in Java in
-order to help those fortunate enough to require dragon saddles. The code leaves
-a lot to be desired.
+# Exécution de cette application
 
-
-The Dragon Saddle Size Guesser has also become an unlikely party favourite!
-
-Sadly, it now has a bug.
-
-# Running this Application
-
-### Calculate the Saddle Size of a Dragon in the Current Year
+### Calculer la taille de selle d'un dragon en fonction de l'année
 
 `./gradlew bootRun`
 
-This will start the web application.
+Cela démarrera votre application.
 
-* Visit http://localhost:9999/dragon/size to see an estimate for the current year
-* Visit http://localhost:9999/dragon/size/year/2019 to see an estimate for 2019. Replace the year as appropriate.
+* Visit http://localhost:9999/dragon/size pour voir le calcul pour l'année en cours
+* Visit http://localhost:9999/dragon/size/year/2019 pour voir le calcul pour l'année 2019.
+
 
 
