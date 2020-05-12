@@ -3,8 +3,6 @@ package com.openclassrooms.debugging;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.Calendar;
-
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -12,9 +10,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 @DisplayName("Given that we have a DragonSaddleSizeEstimator")
 public class DragonSaddleSizeEstimatorIntegrationTest {
 
-    @DisplayName("When the year is 2019 Then the saddle size should be 20.18 meters")
+    @DisplayName("When the year is 2020 Then the saddle size should be 20.19 meters")
     @Test
-    public void estimateSaddleSizeInCentiMeters_shouldReturnTwentyPointEighteenMeters_whenCalculatingTheSizeIn2019() throws Exception {
+    public void estimateSaddleSizeInCentiMeters_shouldReturnTwentyPointNineteenMeters_whenCalculatingTheSizeIn2020() throws Exception {
         int targetYear = 2020;
         // ARRANGE
         DragonSaddleSizeEstimator estimator = DragonSaddleSizeEstimator.INSTANCE;
