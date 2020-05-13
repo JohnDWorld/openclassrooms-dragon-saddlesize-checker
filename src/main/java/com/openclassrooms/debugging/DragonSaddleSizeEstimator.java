@@ -81,7 +81,7 @@ public class DragonSaddleSizeEstimator {
     }
 
     private int enchant() {
-        return 0; // TODO - find a subject matter expert in enchangment
+        return 0; // TODO - find a subject matter expert in enchantment
     }
 
     /**
