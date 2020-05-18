@@ -50,7 +50,7 @@ public class DragonSaddleSizeController {
         try {
             saddleSizeEstimate = dragonSaddleSizeEstimator.estimateSaddleSizeInCentiMeters(targetYear);
         } catch (InvalidSaddleSizeException e) {
-            logger.error("Echec du calcul de la taille de salle:", e);
+            logger.error("Echec du calcul de la taille de selle:", e);
             throw e;
         }
         String response = saddleSizeReporter.report(targetYear, saddleSizeEstimate);
